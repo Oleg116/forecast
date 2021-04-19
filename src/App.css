@@ -1,0 +1,74 @@
+
+.hourlyBox {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(202, 166, 86);
+    width: calc(100% - 30px);
+    height: 320px;
+    margin: 5px;
+    padding: 0px 20px;
+    border-radius: 20px;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.wrapper {
+    transform: translate(3%, 1%);
+
+    display: flex;
+    flex-direction: row;
+    transition: 0.4s;
+    
+
+}
+
+.wrap {
+    overflow-x: hidden;
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+ 
+   
+}
+.specificDayContainer {
+    flex: 0 0 calc(33% - 20px);
+    margin: 10px;
+    transition: 0.5s;
+}
+ 
+.buttons {
+    position: relative;
+}
+
+ .button { 
+    position: absolute;
+    top: 500px;
+    z-index: 1;
+    font-size: 50px;
+}
+
+select {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    z-index: 1;
+}
+
+.selectHour {
+    left: calc(50% - 100px);
+}
+
+.selectUnit {
+    right: 0%;
+}
+.selectHolder {
+    width: 100%;
+    position: relative;
+}
+.left {
+    left: 10px
+}
+
+.right {
+    right: 10px;
+}
