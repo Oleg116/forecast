@@ -1,0 +1,76 @@
+* {
+    transition: 0.4s;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+body {
+    position: relative;
+    background-color: rgb(54, 116, 48);
+}
+
+.item-container {
+    position: absolute;
+    top: 55px;
+    left: 5%;
+    width: 90%;
+    overflow: hidden;
+}
+
+.slider-wrap {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin: 0px auto;
+}
+
+.select-container {
+    width: 100%;
+}
+
+.day {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    background-color: rgb(207, 205, 72);
+    flex: 0 0 calc(33% - 55px);
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+select {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.cities-dropdown {
+    margin-right: calc(50% - 200px);
+}
+
+.unit-dropdown {
+    margin-left: calc(50% - 100px);
+}
+
+.pressure {
+    border-bottom: black solid 1px;
+}
+
+.button-container {
+    position: relative;
+}
+
+.button {
+    font-size: 30px;
+    position: absolute;
+    top: 230px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.right-button {
+    right: 0px;
+}
